@@ -1,0 +1,16 @@
+import { getFirestore } from '@firebase/firestore';
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDzJccfTf1cbaOI5y4DjvJzvQWuypMSMEw",
+  authDomain: "ruleta-43fd7.firebaseapp.com",
+  projectId: "ruleta-43fd7",
+  storageBucket: "ruleta-43fd7.appspot.com",
+  messagingSenderId: "27783517078",
+  appId: "1:27783517078:web:4271245d1464f7be4a83b7"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig); 
+
+export const db = getFirestore(app);

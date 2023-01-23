@@ -5,7 +5,6 @@ import { collection, addDoc } from 'firebase/firestore'
 import { db } from '../../../firebaseconfig'
 import { NavbarApp } from '../Navbar/Navbar'
 
-
 export const CreateApp = () => {
 
   const [nombre, setNombre] = useState('')

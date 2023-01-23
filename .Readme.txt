@@ -1,0 +1,9 @@
+Durante la realización del ejercicio se hicieron uso de las siguientes lenguajes y framework
+
+- Firebase -> Para almacenamiento de colecciones en los usuarios a participar. Asi como haciendo uso del servicio de firestore y sus funciones para tratar los datos almacenados
+- ReactJs -> Donde se trabajo todo las conexiones y el llamado a funciones que permitan la entrada y salida de datos
+- React Bootstrap -> Para agregar maquetación de componentes.
+- React-router-Dom -> Para la navegación entre componentes permitiendo ser una spa.
+- netlify -> Lugar donde se desplego la aplicación 
+
+Sitio -> https://gentle-crepe-3e54aa.netlify.app/

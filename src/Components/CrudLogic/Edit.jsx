@@ -5,7 +5,6 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { getDoc, updateDoc, doc } from 'firebase/firestore'
 import { NavbarApp } from '../Navbar/Navbar'
 
-
 export const EditApp = () => {
 
   const [nombre, setNombre] = useState('')
@@ -14,7 +13,6 @@ export const EditApp = () => {
 
   const navigate = useNavigate()
   const {id} = useParams()
-
 
   const update = async (e) => {
     e.preventDefault()
@@ -25,6 +23,7 @@ export const EditApp = () => {
     await updateDoc(usuarios, data)
     navigate(`/`)
   }
+
   const getUsersById = async (id) => {
     const usuario = await getDoc(doc(db, 'usuarios', id))
     if(usuario.exists()){
@@ -39,7 +38,6 @@ export const EditApp = () => {
 
   useEffect( () => {
     getUsersById(id)
-
   }, [])
 
   return (

@@ -1,0 +1,25 @@
+.contenedor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.contenedor h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.contenedor__jugadores {
+    display: flex;
+    flex-direction: row;
+}
+
+.title_numero {
+    font-size: 20px;
+}
